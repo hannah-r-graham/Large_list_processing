@@ -1,7 +1,7 @@
 # Large_list_processing
 
 
-Two files in this project. Goal is to get the data in a readable and functional format to count amounts and create a relationship between the two differently formatted tables. 
+Three files in this project. Goal is to get the data in a readable and functional format to count amounts for each unique term, which users expressed that term, than how to topic ize those terms using BERTopic library in conjunction with PySpellchecker to reduce errors. 
 
 The parse script simply parses the information needed from a field with key value pairs. It pulls the info we are needing, getting rid of the extra, and assigns it back to a list in the column. 
 
@@ -26,3 +26,5 @@ Output:
 Column 1:             Column 2:             Count:
 Unique value  1       User ID 1             1
 Unique Value 2      User ID1, User ID2      2
+
+The parse skills file, takes a user column and a skills column, takes the skills into individual rows, removes extra characters and unnecesary things, spell checks the terms, then runs through BerTopic to try and group terms by topic. 
