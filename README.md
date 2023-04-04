@@ -27,4 +27,4 @@ Column 1:             Column 2:             Count:
 Unique value  1       User ID 1             1
 Unique Value 2      User ID1, User ID2      2
 
-The parse skills file, takes a user column and a skills column, takes the skills into individual rows, removes extra characters and unnecesary things, spell checks the terms, then runs through BerTopic to try and group terms by topic. 
+The spell check bucket script file takes a user column and a skills column, takes the skills into individual rows, removes extra characters and unnecesary things, spell checks the terms, then runs through BerTopic to try and group terms by topic. 
